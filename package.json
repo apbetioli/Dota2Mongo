@@ -1,0 +1,29 @@
+{
+  "name": "Dota2Mongo",
+  "version": "0.0.1",
+  "description": "Gets Dota 2 data from Steam API and persist on MongoDB",
+  "author": "Alexandre Betioli",
+  "main": "matches.js",
+  "scripts": {
+    "start": "node matches.js"
+  },
+  "dependencies": {
+    "config": "latest",
+    "mongojs": "latest",
+    "request": "latest"
+  },
+  "engines": {
+    "node": "0.12.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apbetioli/Dota2Mongo.git"
+  },
+  "keywords": [
+    "dota 2",
+    "dota",
+    "steam",
+    "api",
+	"mongodb"
+  ]
+}
